@@ -20,6 +20,80 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-3d {
+    background: url("3d-glasses.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+.fa-rick {
+    background: url("rick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-tanjiro {
+    background: url("tanjiro.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-saitama {
+    background: url("saitama.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-vader {
+    background: url("vader.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-dali {
+    background: url("dali.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-bill {
+    background: url("bill.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+}
+
+.fa-coffee-cup {
+    background: url("coffee.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
 .fa-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;

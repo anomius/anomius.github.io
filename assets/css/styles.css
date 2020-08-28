@@ -3478,6 +3478,12 @@ body {
     margin-top: 16px;
 }
 
+.mh-service .mh-service-item .fa.in {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .mh-service .mh-service-item .fa.purple-color {
     color: #9774fa;
 }

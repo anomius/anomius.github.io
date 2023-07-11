@@ -1,12 +1,14 @@
 <html>
     <body>
         this is a page
+        <h1 id="p1"></h1>
 </body>
 <script>
     window.addEventListener('load', function() {
   var cookies = document.cookie;
-  console.log("cookies")
+  console.log("cookies 213")
   console.log(cookies);
+  document.getElementById("p1").innerHTML = cookies;
 });
 </script>
 </html>

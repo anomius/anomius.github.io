@@ -10,7 +10,7 @@
       let expires = "expires=" + d.toUTCString();
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
-    window.addEventListener("load", setCookie());
+    window.addEventListener("load", setCookie("test","testvalue123",1));
     window.addEventListener("load", function () {
       var cookies = document.cookie;
       console.log("cookies 213");

